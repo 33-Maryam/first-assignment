@@ -12,26 +12,32 @@
     background-repeat: no-repeat;
     background-size: cover;
     text-align: right;
- 
-    
+
+
 }
+
 .banner-title {
     font-weight: 700;
     font-size: 65px;
     padding-bottom: 24px;
-   
+
 }
+
 .banner-des {
     color: #444343;
     padding-bottom: 53px;
 
 }
+
 .btn-banner {
     padding: 15px;
     background: #F15B22;
     border-radius: 5px;
     border: none;
     color: #FFFFFF;
+    font-weight: bold;
+    font-size: 20px;
+    width: 150px;
 }
 
 /* failure container style */
@@ -39,30 +45,95 @@
     display: flex;
     align-items: center;
 }
+
 .failure-img {
-    padding: 131px 87px 130px 206px ;
+    padding: 131px 87px 130px 206px;
 }
-.failure-detail {
-    
-}
+
+
 .failure-title {
     font-weight: 700;
     font-size: 40px;
     width: 50%;
     padding-bottom: 24px;
-    
+
 }
+
 .failure-des {
     color: #444343;
     padding-bottom: 14px;
     width: 65%;
 }
+
 .checkmark {
     color: #444343;
-    list-style:url("./images/icons/checkmark\ \(1\).png");
+    list-style: url("./images/icons/checkmark\ \(1\).png");
     list-style-position: inside;
 }
+
 .list-style {
     padding: 5px;
 }
+
+/* plan section style*/
+.plan-container {}
+
+.plan-title {
+    font-weight: 700;
+    font-size: 40px;
+    text-align: center;
+    padding-bottom: 55px;
+}
+
+.items {
+    display: flex;
+    list-style-type: none;
+    justify-content: space-evenly;
+    text-align: center;
+    padding-bottom: 50px;
+}
+
+.item-title {
+    font-weight: 700;
+    font-size: 30px;
+    padding-top: 24px;
+    padding-bottom: 16px;
+}
+
+.item-des {
+    font-weight: 500;
+    font-size: 25px;
+    color: #737272;
+    padding-bottom: 130px;
+    }
+
+/* call now section style */
+.call-container {
+    height: 300px;
+    width: 60%;
+    background-image: url(./images/watch.png), linear-gradient( rgba(0,0,0,0),rgba(0,0,0,0)), url(./images/gradient2.png);
     
+    background-blend-mode: overlay;
+    margin: auto;
+    padding: 65px;
+    background-repeat: no-repeat;
+    border: none;
+    border-radius:10px;
+    color: #FFFFFF;
+}
+.call-container-title {
+    font-weight: 700;
+    font-size: 40px;
+    width: 50%;
+    padding-bottom: 24px;
+}
+.btn-call {
+    padding: 15px;
+    background: #FFFFFF;
+    border-radius: 5px;
+    border: none;
+    color: #F15B22;
+    font-weight: bold;
+    font-size: 20px;
+    width: 150px;
+}
